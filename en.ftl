@@ -24,3 +24,24 @@ animal_query_menu-ui-allow_reproduction_button =
 
 # Common UI elements
 common-ui-ok_button = OK button
+
+# TODO add this to more places
+common-util-pluralize_name = 
+	{$name ->
+		[Quartz] {$item_count ->
+			[1] Quartz
+			*[other] {$item_count} Quartz
+		}
+		[Topaz] {$item_count ->
+			[1] Topaz
+			*[other] {$item_count} Topazes
+		}
+		[Strawberry] {$item_count ->
+			[1] Strawberry
+			*[other] {$item_count} Strawberries
+		}
+		*[other] {$item_count ->
+			[1] {$name}
+			*[other] {$item_count} {$name}s
+		}
+	}
