@@ -1,9 +1,11 @@
-patch-animal_query_menu-heart =
-    {$name}, {$type}, {$heart_count ->
-    [0] 0 hearts
-    [1] 1 heart
-    *[other] {$heart_count} hearts
-    }, {$age} old, {$parent_name ->
+animal_query_menu-animal_info =
+    {$name}, {$baby} {$type}, {$heart_count ->
+    	[1] 1 heart
+    	*[other] {$heart_count} hearts
+    }, {$age ->
+    	[1] 1 month
+	*[other] {$age} months
+    } old, {$parent_name ->
         [null] .
-        *[other] Parent Name is {$parent_name}.
+        *[other] Parent: {$parent_name}.
     }
