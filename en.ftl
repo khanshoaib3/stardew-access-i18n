@@ -1,15 +1,15 @@
 # Related to animal query menu
 animal_query_menu-animal_info =
-    {$name}, {$baby} {$type}, {$heart_count ->
-    	[1] 1 heart
-    	*[other] {$heart_count} hearts
-    }, {$age ->
-    	[1] 1 month
-	*[other] {$age} months
-    } old, {$parent_name ->
-        [null] .
-        *[other] Parent: {$parent_name}.
-    }
+	{$name}, {$baby} {$type}, {$heart_count ->
+		[1] 1 heart
+		*[other] {$heart_count} hearts
+	}, {$age ->
+		[1] 1 month
+		*[other] {$age} months
+	} old, {$parent_name ->
+		[null] .
+		*[other] Parent: {$parent_name}.
+	}
 animal_query_menu-ui-confirm_selling_button = Confirm selling animal button
 animal_query_menu-ui-cancel_selling_button = Cancel selling animal button
 animal_query_menu-ui-selling_button = Sell for {$price}g button
@@ -25,6 +25,7 @@ animal_query_menu-ui-allow_reproduction_button =
 # Common UI elements
 common-ui-ok_button = OK button
 
+# The $name will be in the respective language i.e., it will be in french for french translation and so on. So use the language specific name in the square brackets except for the one with '*', that can have any value. Variants with '*' are marked as default.
 # TODO add this to more places
 common-util-pluralize_name = 
 	{$name ->
