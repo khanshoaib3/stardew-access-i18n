@@ -1,3 +1,8 @@
+building_operations-move_building-under_construction = Cannot move building! Under construction.
+building_operations-move_building-no_permission = You don't have permission to move this building!
+building_operations-move_building-cannot_move = Cannot move building to {$x_position}x {$y_position}y
+building_operations-move_building-building_moved = {$building_name} moved to {$x_position}x {$y_position}y
+
 # Related to animal query menu
 animal_query_menu-animal_info =
 	{$name}, {$baby} {$type}, {$heart_count ->
