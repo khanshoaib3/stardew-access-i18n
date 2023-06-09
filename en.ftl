@@ -27,6 +27,14 @@ animal_query_menu-ui-allow_reproduction_button =
 	} allow pregnancy button
 
 
+
+prefix-repair = Repair {$content}
+tile_name-bridge = Bridge
+tile_name-ticket_machine = Ticket Machine
+tile_name-boat_hull = Boat Hull
+tile_name-boat_anchor = Boat Anchor
+
+
 # Common UI elements
 common-ui-ok_button = OK button
 
