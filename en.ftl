@@ -43,8 +43,18 @@ tile_name-ticket_machine = Ticket Machine
 tile_name-boat_hull = Boat Hull
 tile_name-boat_anchor = Boat Anchor
 tile_name-missed_reward_chest = Missed Reward Chest
+tile_name-mail_box = Mail Box
+tile_name-stove = Stove
+tile_name-sink = Sink
+tile_name-fridge = Fridge
+tile_name-traveling_cart = Traveling Cart
+
+item_name-log = Log
+
+entrance_name-secret_woods_entrance = Secret Woods Entrance
 
 npc_name-old_mariner = Old Mariner
+npc_name-island_trader = Island Trader
 
 
 # Common UI elements
