@@ -29,10 +29,22 @@ animal_query_menu-ui-allow_reproduction_button =
 
 
 prefix-repair = Repair {$content}
+
+suffix-building_door = {$content} Door
+suffix-building_animal_door = {$content } Animal Door {$isOpen ->
+		[0] Closed
+		*[1] Opened
+	}
+suffix-mill_input = {$content} Input
+suffix-mill_output = {$content} Output
+
 tile_name-bridge = Bridge
 tile_name-ticket_machine = Ticket Machine
 tile_name-boat_hull = Boat Hull
 tile_name-boat_anchor = Boat Anchor
+tile_name-missed_reward_chest = Missed Reward Chest
+
+npc_name-old_mariner = Old Mariner
 
 
 # Common UI elements
