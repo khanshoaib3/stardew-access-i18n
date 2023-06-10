@@ -48,13 +48,23 @@ tile_name-stove = Stove
 tile_name-sink = Sink
 tile_name-fridge = Fridge
 tile_name-traveling_cart = Traveling Cart
+tile_name-cooled_lava = Cooled Lava
+tile_name-lava = Lava
 
 item_name-log = Log
+
+building_name-shipping_bin = Shipping Bin
 
 entrance_name-secret_woods_entrance = Secret Woods Entrance
 
 npc_name-old_mariner = Old Mariner
 npc_name-island_trader = Island Trader
+npc_name-emerald_gem_bird = Emerald Gem Bird
+npc_name-aquamarine_gem_bird = Aquamarine Gem Bird
+npc_name-ruby_gem_bird = Ruby Gem Bird
+npc_name-amethyst_gem_bird = Amethyst Gem Bird
+npc_name-topaz_gem_bird = Topaz Gem Bird
+npc_name-gem_bird_common = Gem Bird
 
 
 # Common UI elements
