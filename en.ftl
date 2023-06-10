@@ -28,6 +28,7 @@ animal_query_menu-ui-allow_reproduction_button =
 
 
 
+# FIXME update naming convention
 prefix-repair = Repair {$content}
 
 suffix-building_door = {$content} Door
@@ -40,6 +41,7 @@ suffix-mill_output = {$content} Output
 
 tile_name-bridge = Bridge
 tile_name-ticket_machine = Ticket Machine
+tile_name-movie_ticket_machine = Movie Ticket Machine
 tile_name-boat_hull = Boat Hull
 tile_name-boat_anchor = Boat Anchor
 tile_name-missed_reward_chest = Missed Reward Chest
@@ -54,9 +56,13 @@ tile_name-diggable_spot = Diggable Spot
 tile_name-panning_spot = Panning Spot
 tile_name-feeding_bench = Feeding Bench
 tile_name-feeding_bench_empty = Empty Feeding Bench
+tile_name-special_quest_board = Special Quest Board
+tile-museum_piece_showcase-suffix = {$content} Showcase
 
 item_name-log = Log
 item_name-magic_ink = Magic Ink
+item-lost_book-name = Lost Book
+item-suffix-book = {$content} Book
 
 building_name-shipping_bin = Shipping Bin
 building-parrot_perch-required_nuts = Parrots require {$item_count ->
