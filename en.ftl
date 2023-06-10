@@ -50,8 +50,13 @@ tile_name-fridge = Fridge
 tile_name-traveling_cart = Traveling Cart
 tile_name-cooled_lava = Cooled Lava
 tile_name-lava = Lava
+tile_name-diggable_spot = Diggable Spot
+tile_name-panning_spot = Panning Spot
+tile_name-feeding_bench = Feeding Bench
+tile_name-feeding_bench_empty = Empty Feeding Bench
 
 item_name-log = Log
+item_name-magic_ink = Magic Ink
 
 building_name-shipping_bin = Shipping Bin
 building-parrot_perch-required_nuts = Parrots require {$item_count ->
