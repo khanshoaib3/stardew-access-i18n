@@ -54,6 +54,14 @@ tile_name-lava = Lava
 item_name-log = Log
 
 building_name-shipping_bin = Shipping Bin
+building-parrot_perch-required_nuts = Parrots require {$item_count ->
+		[1] 1 nut
+		*[other] {$item_count} nuts
+	}
+building-parrot_perch-upgrade_state_idle = Empty Parrot Perch
+building-parrot_perch-upgrade_state_start_building = Parrots started building request
+building-parrot_perch-upgrade_state_building = Parrots building request
+building-parrot_perch-upgrade_state_complete = Request completed
 
 entrance_name-secret_woods_entrance = Secret Woods Entrance
 
