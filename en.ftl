@@ -26,13 +26,14 @@ animal_query_menu-ui-allow_reproduction_button =
 		*[other] Enabled
 	} allow pregnancy button
 
+menu-inventory-empty_slot-name = Empty Slot
 
 
 # FIXME update naming convention
 prefix-repair = Repair {$content}
 
 suffix-building_door = {$content} Door
-suffix-building_animal_door = {$content } Animal Door {$isOpen ->
+suffix-building_animal_door = {$content } Animal Door {$is_open ->
 		[0] Closed
 		*[1] Opened
 	}
@@ -63,6 +64,13 @@ item_name-log = Log
 item_name-magic_ink = Magic Ink
 item-lost_book-name = Lost Book
 item-suffix-book = {$content} Book
+item-quality_type = {$quality_index -> 
+		[1] Silver
+		[2] Gold
+		[3] Gold
+		*[4] Iridium
+	} Quality
+item-stamina_and_health_recovery_on_consumption = {$stamina_amount} Energy, {$health_amount} Health {TEST($stamina_amount)}
 
 building_name-shipping_bin = Shipping Bin
 building-parrot_perch-required_nuts = Parrots require {$item_count ->
