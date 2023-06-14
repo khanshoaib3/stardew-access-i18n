@@ -26,7 +26,7 @@ animal_query_menu-ui-text_box = Animal name text box
 animal_query_menu-ui-allow_reproduction_button =
 	{$checkbox_value ->
 		[0] Disabled
-		*[other] Enabled
+		*[1] Enabled
 	} allow pregnancy button
 
 menu-inventory-empty_slot-name = Empty Slot
@@ -73,7 +73,18 @@ item-quality_type = {$quality_index ->
 		[3] Gold
 		*[4] Iridium
 	} Quality
-item-stamina_and_health_recovery_on_consumption = {$stamina_amount} Energy, {$health_amount} Health
+item-stamina_and_health_recovery_on_consumption = {SIGNOFNUMBER($stamina_amount) ->
+		[positive] +{$stamina_amount} Energy and {SIGNOFNUMBER($health_amount) ->
+				[positive] +{$health_amount} Health
+				*[other] {EMPTYSTRING()}
+			}
+		[negative] -{$stamina_amount} Energy
+		[zero] {SIGNOFNUMBER($health_amount) ->
+				[positive] +{$health_amount} Health
+				*[other] {EMPTYSTRING()}
+			}
+		*[other] {EMPTYSTRING()}
+	}
 
 building_name-shipping_bin = Shipping Bin
 building-parrot_perch-required_nuts = Parrots require {$item_count ->
