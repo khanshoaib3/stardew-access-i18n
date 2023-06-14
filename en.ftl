@@ -5,14 +5,17 @@ building_operations-move_building-building_moved = {$building_name} moved to {$x
 
 # Related to animal query menu
 animal_query_menu-animal_info =
-	{$name}, {$baby} {$type}, {$heart_count ->
+	{$name}, {$is_baby ->
+		[0] {$type}
+		*[1] Baby {$type}
+	}, {$heart_count ->
 		[1] 1 heart
 		*[other] {$heart_count} hearts
 	}, {$age ->
 		[1] 1 month
 		*[other] {$age} months
 	} old, {$parent_name ->
-		[null] .
+		[null] {EMPTYSTRING()}
 		*[other] Parent: {$parent_name}.
 	}
 animal_query_menu-ui-confirm_selling_button = Confirm selling animal button
@@ -70,7 +73,7 @@ item-quality_type = {$quality_index ->
 		[3] Gold
 		*[4] Iridium
 	} Quality
-item-stamina_and_health_recovery_on_consumption = {$stamina_amount} Energy, {$health_amount} Health {TEST($stamina_amount)}
+item-stamina_and_health_recovery_on_consumption = {$stamina_amount} Energy, {$health_amount} Health
 
 building_name-shipping_bin = Shipping Bin
 building-parrot_perch-required_nuts = Parrots require {$item_count ->
