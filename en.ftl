@@ -101,6 +101,9 @@ building-parrot_perch-upgrade_state_complete = Request completed
 
 entrance_name-secret_woods_entrance = Secret Woods Entrance
 
+feature-speak_selected_slot_item_name = {$slot_item_name} Selected
+feature-speak_location_name = {$location_name} Entered
+
 npc_name-old_mariner = Old Mariner
 npc_name-island_trader = Island Trader
 npc_name-emerald_gem_bird = Emerald Gem Bird
