@@ -67,6 +67,7 @@ item_name-log = Log
 item_name-magic_ink = Magic Ink
 item-lost_book-name = Lost Book
 item-suffix-book = {$content} Book
+item-suffix-not_usable_here = {$content} not usable here
 item-quality_type = {$quality_index -> 
 		[1] Silver
 		[2] Gold
@@ -85,6 +86,8 @@ item-stamina_and_health_recovery_on_consumption = {SIGNOFNUMBER($stamina_amount)
 			}
 		*[other] {EMPTYSTRING()}
 	}
+item-required_item_info = Requires {$name}
+item-sell_price_info = Sell Price: {$price}g
 
 building_name-shipping_bin = Shipping Bin
 building-parrot_perch-required_nuts = Parrots require {$item_count ->
